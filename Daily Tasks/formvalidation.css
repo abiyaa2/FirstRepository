@@ -1,0 +1,19 @@
+body{
+    box-sizing: border-box;
+    background-color: antiquewhite;
+
+}
+
+/* 
+.container
+{
+    padding: 20px;
+    border: 2px solid black;
+    margin: auto;
+ 
+} */
+
+#darkmode {
+    background-color: black;
+    color: white;
+}

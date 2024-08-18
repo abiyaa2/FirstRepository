@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day2 Task</title>
+</head>
+<body>
+        <!-- <h1>Lists</h1>
+    <h2><u>Courses</u></h2>
+    <ol>
+        <li>UI/UX Designer</li>
+        <li>Frontend Developer</li>
+        <li>Data Analytics</li>
+        <li>DSA</li>
+        <li>Digital Marketing</li>
+        <li>Backend Developer</li>
+    </ol>
+    <hr/>
+    <h2><u>Topics in frontend developer</u></h2>
+    <ul type="square">
+        <li>HTML & CSS</li>
+        <li>Bootstrap</li>
+        <li>Javascript</li>
+        <li>ReactJS</li>
+    </ul>
+    <hr/> -->
+
+    <!-- <img src="./Assets/sample.jpg" alt="Rohee face"/>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg6J6AsUJU01mzUP-ew1kb__B99z5ZrPnKLg&s" alt="Good mrng quotes"/> -->
+    <h2>Details</h2>
+    <table border="1">
+        <thead>
+            <tr>
+            <th>Employee ID</th>
+            <th>Name</th>
+            <th>Designation</th>
+            <th colspan="2">Mobile number</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>1001</td>
+            <td>Ram</td>
+            <td rowspan="2">Software engg</td>
+            <td>+91</td>
+            <td>8796541230</td>
+            </tr>
+            
+            <tr>
+            <td>1002</td>
+            <td>lavanya</td>
+            <!-- <td>Team Lead</td> -->
+            <td>+91</td>
+            <td>9875632001</td>
+            </tr>
+            <tr>
+                <td>1003</td>
+                <td>Abinaya</td>
+                <td>Senior Software engg</td>
+                <td>+91</td>
+                <td>7563201489</td>
+            </tr>
+
+            <tr>
+                <td>1004</td>
+                <td>Ram</td>
+                <td>Consultant</td>
+                <td>+91</td>
+                <td>8563204510</td>
+            </tr>
+            <tr>
+                <td>1005</td>
+                <td>Sita</td>
+                <td>Manager</td>
+                <td>+91</td>
+                <td>6598741200</td>
+            </tr>
+            <tr>
+                <td>1006</td>
+                <td>Lakshmi</td>
+                <td>Senior software engineer</td>
+                <td>+91</td>
+                <td>7025884630</td>
+            </tr>
+        </tbody>
+    </table>
+    <h1>Signup Form</h1>
+    <form>
+    <table>
+        <tbody>
+        <tr>
+        <td><label>First Name :</label></td>
+        <td><input type="text" placeholder="Enter your name"/></td>
+        </tr>
+        <tr>
+        <td><label>Last Name :</label></td>
+        <td><input type="text" placeholder="enter your lastname"/></td>
+        </tr> 
+        <tr>
+        <td><label>Gender :</label></td>
+        <td><input type="radio" name="gender" value="Female"/>
+            <label>Female</label> 
+            <input type="radio" name="gender" value="Male"/>
+            <label>Male</label></td>
+        </tr>
+        <tr>
+            <td><label>DOB :</label></td>
+            <td><input type="date"/></td> 
+        </tr>
+        <tr>
+            <td><label>Mobile Number :</label></td>
+            <td><input type="number" placeholder="Enter your number"/></td>
+        </tr>
+        <tr>
+                <td><label>E.mail :</label></td>
+                <td><input type="mail" placeholder="Enter your mailID"/></td> 
+        </tr>
+        <tr>
+            <td><label>Password :</label></td>
+            <td><input type="password" placeholder="Password should contain atleast2 characters"/></td>
+
+        </tr>
+        <tr>
+            <td>
+                <label>Location :</label>
+            </td>
+                <td><select>
+                <option value="Chennai">Chennai</option>
+                <option value="Trichy">Trichy</option>
+                <option value="Coimbatore">Coimbatore</option>
+                <option value="Madurai">Madurai</option>
+                </select>
+            </td>
+           
+        </tr>
+        <tr>
+            <td><Label>Address :</Label></td>
+            <td><textarea></textarea></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="Register"/> </td> 
+        </tr>
+        </tbody>
+
+    </table>
+    </form>
+    <!-- <div>
+    <Label>FirstName :</Label>
+    <input type="text" placeholder="Enter your name"/>
+    </div>
+    <div>
+    <Label>LastName :</Label>
+    <input type="text" placeholder="Enter your lastname"/>
+    </div>
+    <div>
+        <label>Gender :</label>
+        
+        <input type="radio" name="gender" value="Female"/>
+        <label>Female</label>
+        
+        <input type="radio" name="gender" value="Male"/>
+        <label>Male</label>
+    </div>
+    <div>
+        <label>DOB :</label>
+        <input type="date"/>
+    </div>
+    <div>
+        <label>Mobile Number :</label>
+        <input type="number" placeholder="Enter your number"/>
+    </div>
+    
+    <div>
+        <label>E.mail :</label>
+        <input type="mail" placeholder="Enter your mailID"/>
+    </div>
+    <div>
+        <label>Password</label>
+        <input type="password" placeholder="Password should contain atleast2 characters"/>
+    </div>
+    <div>
+        <label>Location :</label>
+        <select>
+        <option value="Chennai">Chennai</option>
+        <option value="Trichy">Trichy</option>
+        <option value="Coimbatore">Coimbatore</option>
+        <option value="Madurai">Madurai</option>
+        </select>
+    </div>
+    <div>
+        <Label>Address :</Label>
+        <textarea></textarea>
+    </div>
+    <div>
+        <center>
+        <input type="button" value="Register"/>
+        </center>
+    </div> -->
+
+</form>
+         
+        
+
+
+</body>
+</html>

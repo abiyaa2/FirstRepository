@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+  }
+  /* .header {
+    background-color: lightcoral;
+    padding: 10px;
+  } */
+  body > img {
+    width: 50px;
+  }
+  body {
+    margin: 0;
+    /* height: 100vh; */
+  }
+  #searchbox {
+    float: right;
+    background-color: white;
+    border-radius: 3px;
+    padding: 8px;
+    display: flex; 
+    text-align: end;
+
+  }
+  /* #searchbox > input {
+    border: none;
+    outline: none;
+  } */
+  #searchbox > button {
+    cursor: pointer;
+  }
+  /* .search-btn > i {
+    font-size: large;
+  } */
+  .navbar {
+    margin: 0;
+    box-shadow: 3px 3px 5px 4px #ccc;
+  }
+  .list > li {
+text-decoration: none;
+list-style-type: none;
+display: flex;
+flex-wrap: wrap;
+  }
+  

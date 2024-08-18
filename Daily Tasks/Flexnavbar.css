@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: antiquewhite;
+}
+.nav-bar
+{
+    margin: 2px;
+    box-shadow: 3px 3px 5px 4px red;
+}
+.nav-bar > ul{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    margin:5px;
+}
+.nav-bar > ul > li
+{
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+.nav-bar > ul > li >.rohee
+{
+    width: 50px;
+
+    
+}
+.menu :first-child{
+    margin-right: auto;
+}
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    /* position:sticky; */
+    top: 0;
+    
+    
+    /* border: 1px solid black; */
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+.card > img{
+    width: 100px;
+}
+.para{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-basis: 100%; */
+
+}
+
+.nav-bar1{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-grow: 2; */
+}
+.nav-bar1 > input{
+    flex-grow: 1;
+}
+#login{
+    width: 250px;
+}
+
+
+@media screen and (max-width:400px){
+
+  .card{
+     
+  }
+
+} 

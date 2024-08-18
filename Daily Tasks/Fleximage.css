@@ -1,0 +1,38 @@
+/* .flex{
+    display: flex;
+    flex-direction: row;
+    background-color: greenyellow;
+    padding: 30px;
+    width: 200px;
+    flex-wrap: wrap;
+}
+
+h2{
+    background-color: black;
+    color: white;
+    margin: 2px;
+    padding: 5px;
+} */
+*{
+    margin: 0;
+    padding: 0;
+}
+.title{
+    text-align: center;
+}
+body{
+    
+    background-color: aquamarine;
+
+}
+.image-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.image-container > div{
+    margin: 10px;
+    flex-basis: 20%;
+}

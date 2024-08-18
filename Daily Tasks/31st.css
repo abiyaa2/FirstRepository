@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+.header {
+  background-color: lightcoral;
+  padding: 10px;
+}
+.header > img {
+  width: 50px;
+}
+body {
+  margin: 0;
+  /* height: 100vh; */
+}
+#searchbox {
+  float: right;
+  background-color: white;
+  border-radius: 3px;
+  padding: 8px;
+}
+#searchbox > input {
+  border: none;
+  outline: none;
+}
+#searchbox > button {
+  cursor: pointer;
+}
+.search-btn > i {
+  font-size: large;
+}
+.navbar {
+  margin: 0;
+  box-shadow: 3px 3px 5px 4px #ccc;
+}
+
+.list {
+  padding-left: 0;
+  margin: 0;
+  background-color: aquamarine;
+}
+
+.list > li {
+  display: inline-block;
+  list-style: none;
+  margin-right: 15px;
+  padding: 16px;
+  cursor: pointer;
+  position: relative;
+}
+
+.sub-menu {
+  padding-left: 0;
+  list-style: none;
+  position: absolute;
+  top: 50px;
+  display: none;
+  width: max-content;
+  border: 1px solid grey;
+}
+.list > li:hover > .sub-menu {
+  display: block;
+}
+
+.list > li:hover {
+  background-color: blanchedalmond;
+}
+
+.list > li:nth-child(even) {
+  background-color: pink;
+}
+
+.main > .sec-list > li:nth-child(even) {
+  background-color: pink;
+  width: max-content;
+}
+
+.footer {
+  background-color: black;
+  padding: 30px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+.third-list {
+  padding-left: 0;
+  margin: 0;
+}
+
+.footer > .third-list > li {
+  list-style: none;
+  display: inline-block;
+  color: white;
+  /* box-sizing: border-box; */
+}
